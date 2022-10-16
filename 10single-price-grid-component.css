@@ -1,0 +1,199 @@
+
+
+/* FONT SETTINGS */
+@font-face {
+    font-family: karla;
+    src: url(./Font-Karla/Karla-VariableFont_wght.ttf);
+}
+
+/* ----- CHALLENGE ----- */
+
+/* BODY */
+body {
+    /* border: 1px solid black; */
+    background-color: rgb(231, 230, 230);
+    min-height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* CHALLENGE */
+#challenge {
+    /* border: 1px solid black; */
+    background-color: rgb(102, 102, 180);
+    border-radius: 5px;
+    box-shadow: 1px 1px 20px hsl(218, 22%, 67%);
+    width: 635px; 
+    height: 480px;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto 260px;
+}
+
+/* BLOC SETTINGS */
+
+/* CELLULE */
+.cellule {
+    /* border: 1px solid black; */
+    background-color: rgb(82, 82, 194);
+}
+
+/* BLOC UN */
+#un {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    /* border: 1px solid black; */
+    background-color: hsl(204, 43%, 93%);
+    border-radius: 5px 5px 0px 0px;
+    padding-left: 40px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    
+}
+#un h1{
+    /* border: 1px solid black; */
+    width: 265px; 
+    font-size: 27px;
+}
+#un h2{
+    /* border: 1px solid black; */
+    width: 395px;
+    font-size: 19px; 
+}
+#un p {
+    /* border: 1px solid black; */
+    color: hsl(218, 22%, 67%);
+    width: 555px; 
+    font-size: 16px; 
+    font-weight: 400;
+    line-height: 25px;
+}
+
+/* BLOC DEUX */
+#deux {
+    /* border: 1px solid red; */
+    background-color: hsl(179, 76%, 32%);
+    border-radius: 0px 0px 0px 5px;
+    padding: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    margin: 0;
+}
+#deux h2 {
+    /* border: 1px solid pink; */
+    color: hsl(204, 43%, 93%);
+    width: 180px; 
+    font-size: 17px;
+    font-weight: 400;
+    margin: 0;
+    margin-bottom: 20px;
+}
+#deux p {
+    /* border: 1px solid yellow; */
+    color: hsl(204, 43%, 93%);
+    font-size: 30px;
+    font-weight: 400;
+    display: flex;
+    width: 145px;
+    margin: 0;
+    margin-bottom: 10px;
+}
+#deux span {
+    /* border: 1px solid blue; */
+    color: hsl(179, 62%, 43%);
+    font-size: 16px;
+    font-weight: 400;
+    display: inline-flex;
+    align-items: center;
+    margin-left: 10px;
+}
+#deux p + p {
+    /* border: 1px solid red; */
+    font-size: 15px;
+    font-weight: 400;
+    width: 230px;
+    margin: 0;
+    margin-bottom: 25px;
+}
+button {
+    border-style: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px hsl(178, 59%, 26%);
+    background-color: hsl(71, 73%, 54%);
+    color: white;
+    width: 235px;
+    height: 50px;
+    font-family: karla;
+    font-weight: 400;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.bloc-bas-gauche {
+    width: 3085px;
+    height: 257px;
+}
+.sign-up {
+    width: 56px; 
+} 
+
+/* BLOC TROIS */
+#trois {
+    /* border: 1px solid yellow; */
+    background-color: hsl(179, 62%, 43%);
+    border-radius: 0px 0px 5px 0px;
+    padding-top: 35px;
+    padding-left: 40px;
+    padding-bottom: 35px;
+    padding-right: 40px;
+}
+#trois h2{
+    /* border: 1px solid black; */
+    color: hsl(204, 43%, 93%);
+    width: 65px;
+    font-size: 17px;
+    font-weight: 400;
+    margin: 0;
+    margin-bottom: 20px;
+}
+#trois p {
+    /* border: 1px solid black; */
+    color: hsl(204, 43%, 93%);
+    width: 180px;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    margin: 0;
+}
+
+/* FONTS */
+h1 {
+    /* border: 1px solid black; */
+    color: hsl(179, 62%, 43%);
+    font-family: karla;
+}
+h2 {
+    /* border: 1px solid black; */
+    color: hsl(71, 73%, 54%);
+    font-family: karla;
+}
+p {
+    /* border: 1px solid black; */
+    color: hsl(218, 22%, 67%);
+    font-family: karla;
+    font-weight: 400;
+    font-size: 16px;
+    margin: 0px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
